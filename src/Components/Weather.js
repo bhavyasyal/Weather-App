@@ -41,7 +41,7 @@ function Weather({ currentWeatherData, fetchCurrentWeather }) {
           <input
             type="text"
             class="searchTerm"
-            placeholder="Search for any city's weather"
+            placeholder="Search for a city's weather"
             //value={}
             onChange={cityNameHandler}
           />
